@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+
+:root {
+  --bg-color: #F8F9FA;
+  --bg-2-color: #EEEEEF;
+  --text-color: #000000;
+  --primary-color: #FF6000;
+  --hover-color-1: #ff5100;
+  --secondary-color: #000000;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+}
+
+.nav-main-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-main-header {
+  background-color: #F8F9FA;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-logo-head {
+  font-size: 28px;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primary-color);
+}
+
+.nav-logo-head:hover {
+  color: var(--primary-color);
+}
+
+
+.nav-menu-text {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.navbar-nav .nav-link.active {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+.projects{
+    background-color: #000000;
+}
+ 
+.projects .contact-head h2{
+    color: #ffffff;
+}
+
+.custom-primary-btn-projects {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  box-shadow: 0 0 0 2px var(--primary-color);
+}
+
+.custom-primary-btn-projects a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.custom-primary-btn-projects:hover {
+  background-color: var(--hover-color-1);
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: var(--secondary-color);
+}
+
+footer .content .media-icons {
+  margin-top: 15px;
+}
+
+
+footer .content .media-icons a {
+  font-size: 30px;
+  color: #ffffff;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #FF6000;
+  margin: 5px 20px 0 0;
+  transition: all 0.3s ease;
+}
+
+.content .media-icons a:hover {
+  color: #ffffff;
+  background-color: var(--hover-color-1);
+  border-color: var(--primary-color);
+}
+
+.footer .upper p {
+  margin-top: 15px;
+  width: 96%;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.lower .footer-contact i {
+  color: #FF6000;
+}
+
+.lower .footer-contact span {
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.lower .footer-contact a {
+  text-decoration: none;
+  color: #FF6000;
+}
+
+.footer-menu li a {
+  line-height: 2;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-menu li a:hover {
+  color: var(--primary-color);
+}
+
+.footer-menu ul {
+  margin-bottom: 0;
+}
+
+
+.footer .bottom {
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer .bottom a {
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.footer-head-contact {
+  margin-bottom: 15px;
+}

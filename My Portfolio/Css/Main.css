@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+
+:root {
+  --bg-color: #F8F9FA;
+  --bg-2-color: #EEEEEF;
+  --text-color: #000000;
+  --primary-color: #FF6000;
+  --hover-color-1: #ff5100;
+  --secondary-color: #000000;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+}
+
+.nav-main-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-main-header {
+  background-color: #F8F9FA;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-logo-head {
+  font-size: 28px;
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primary-color);
+}
+
+.nav-logo-head:hover {
+  color: var(--primary-color);
+}
+
+
+.nav-menu-text {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.navbar-nav .nav-link.active {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+
+/* 3 Banner */
+.banner_wrapper {
+  padding-top: 110px;
+  z-index: 1;
+  background-image: url('/Assests/home-banner.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.banner_wrapper .col-lg-7 {
+  padding-top: 50px;
+}
+
+
+.banner-content h2 {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: var(--text-color);
+}
+
+.banner-content h1 {
+  font-size: 50px;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--text-color);
+}
+
+.main_name {
+  color: var(--primary-color);
+}
+
+.banner-content h5 {
+  font-size: 20px;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #484848;
+}
+
+
+.banner-content .strong_text {
+  font-size: 20px;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--primary-color);
+}
+
+.banner-content p {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+}
+
+.custom-primary-btn {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  box-shadow: 0 0 0 2px var(--primary-color);
+  margin-right: 20px;
+}
+
+
+.custom-primary-btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.custom-primary-btn:hover {
+  background-color: var(--hover-color-1);
+  color: #ffffff;
+}
+
+
+.custom-secondary-btn a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.custom-secondary-btn {
+  text-decoration: none;
+  color: #000000;
+  box-shadow: 0 0 0 2px var(--text-color);
+}
+
+.custom-secondary-btn:hover {
+  background-color: #000000f5;
+  box-shadow: 0 0 0 2px var(--text-color);
+}
+
+.custom-secondary-btn:hover a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.h6-pad {
+  margin-bottom: 30px;
+}
+
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-list li {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+
+.bg-text {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  padding: 8px;
+  border-radius: 8px;
+  display: inline;
+}
+
+.bg-text:hover {
+  color: #000000;
+  box-shadow: 0 0 0 2px var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.about-head {
+  font-size: 50px;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--primary-color);
+}
+
+.text-color {
+  color: #ffffff;
+}
+
+.bg-bar {
+  background-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.about-text h3 {
+  font-size: 28px;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+.about-text p {
+  font-size: 17px;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+}
+
+
+.fact-item span {
+  color: var(--primary-color);
+}
+
+.about-text h3 {
+  position: relative;
+}
+
+.about-text h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 31%;
+  height: 2px;
+  background-color: var(--primary-color);
+  border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: var(--secondary-color);
+}
+
+footer .content .media-icons {
+  margin-top: 15px;
+}
+
+
+footer .content .media-icons a {
+  font-size: 30px;
+  color: #ffffff;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #FF6000;
+  margin: 5px 20px 0 0;
+  transition: all 0.3s ease;
+}
+
+.content .media-icons a:hover {
+  color: #ffffff;
+  background-color: var(--hover-color-1);
+  border-color: var(--primary-color);
+}
+
+.footer .upper p {
+  margin-top: 15px;
+  width: 96%;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.lower .footer-contact i {
+  color: #FF6000;
+}
+
+.lower .footer-contact span {
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.lower .footer-contact a {
+  text-decoration: none;
+  color: #FF6000;
+}
+
+.footer-menu li a {
+  line-height: 2;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-menu li a:hover {
+  color: var(--primary-color);
+}
+
+.footer-menu ul {
+  margin-bottom: 0;
+}
+
+
+.footer .bottom {
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer .bottom a {
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.footer-head-contact {
+  margin-bottom: 15px;
+}
